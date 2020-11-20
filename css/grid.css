@@ -1,0 +1,12 @@
+body{
+  margin:0;
+  padding:0;
+}
+.container{
+   display:grid;
+   min-height:100vh;
+   margin:0 auto;   
+ }
+
+
+

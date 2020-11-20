@@ -1,0 +1,194 @@
+.aside{
+	 height: 90vh;
+   overflow: auto;
+}
+.aside::-webkit-scrollbar {
+    display: none;
+}
+
+
+.aside-body{
+	padding-top: 80px;
+}
+.aside-body .noticias{
+      border-radius: 0.7em;
+      width: 90%;
+      margin: auto;
+      background: rgb(245,248,250);
+      border:1px solid #e6ecf0;
+}
+.aside-body .noticias .nt:hover{
+		background: rgb(237,241,244);
+}
+.aside-body .noticias .title h3{
+        font-size: 1.2rem;
+        margin: 8px;
+        font-weight: 800;
+}
+/*
+<div class="nt">
+                      <div class="option-nt">
+                        <span>></span>
+                      </div>
+                      <div class="info-nt">
+                        <p>Web Technology</p>
+                        <p>CSS</p>
+                        <p>105k Tweets</p> 
+                      </div>              
+                    </div>
+
+*/
+.aside-body .noticias .title{
+   padding: 2px;    
+   display: flex;
+   justify-content: space-between;
+   align-items: center;     
+}
+
+.aside-body .noticias .title span{
+   margin-right: 5px; 
+   transition: all 0.5s;
+   cursor: pointer;
+}
+.aside-body .noticias .title span:hover{
+   transform: rotate(120deg); 
+    margin-top: 5px; 
+transition: all 0.5s;
+
+}
+.aside-body .noticias .footer{
+         border-top:1px solid #e6ecf0;
+         padding: 7px;
+         color: #1ca0f2;
+     
+}
+.aside-body .noticias .footer a{
+         color: #1ca0f2;
+}
+.aside-body .noticias .footer:hover{
+         border-top:1px solid #e6ecf0;
+         padding: 7px;
+         color: #1ca0f2;
+         text-decoration: underline;
+}
+
+
+.aside-body .noticias .nt{
+         border-top:1px solid #e6ecf0;
+         padding: 10px;
+         display: flex;
+         justify-content: space-between;
+
+}
+
+.aside-body .noticias .nt .info-nt p{
+      margin: 0;
+      font-size: 1rem;
+}
+.aside-body .noticias .nt .info-nt .bold{
+	font-weight: 800;
+
+}
+.aside-body .noticias .nt .info-nt .bold a:hover{
+	text-decoration: underline;
+}
+.option-nt i{
+        transform: rotate(180deg);
+    	transition: all 0.4s;
+    	padding: 8px;
+    	cursor: pointer;
+    	color: #1ca0f2;
+    	position: relative;
+    	
+}
+
+.option-nt i:hover{
+
+	transition: all 0.4s;
+    transform: rotate(0deg);
+}
+
+
+
+.contacts{
+	  border-radius: 0.7em;
+      width: 90%;
+      margin: auto;
+      background: rgb(245,248,250);
+      border:1px solid #e6ecf0;
+}
+.contacts .title{
+	 padding: 2px;    
+   	display: flex;
+   	justify-content: space-between;
+   	align-items: center;  
+}
+.contacts .footer{
+	border-top:1px solid #e6ecf0;
+         padding: 7px;
+}
+.contacts .footer a{
+  color: #1ca0f2;
+}
+.contacts .footer a:hover{
+  text-decoration: underline;
+}
+
+.contacts.title span{
+   margin-right: 5px; 
+   transition: all 0.5s;
+   cursor: pointer;
+}
+.contacts .title span:hover{
+   transform: rotate(120deg); 
+    margin-top: 5px; 
+transition: all 0.5s;
+
+}
+.contacts .title h3{
+        font-size: 1.2rem;
+        margin: 8px;
+        font-weight: 800;
+}
+.contacts .ct:hover{
+		background: rgb(237,241,244);
+}
+
+.contacts .ct{
+         border-top:1px solid #e6ecf0;
+         padding: 10px;
+         display: flex;
+         justify-content: space-between;
+}
+.contacts .contact-img img{
+	border-radius: 50%;
+	height: 50px;
+	widows: 50px;
+}
+.contacts .info-ct{
+	display: flex;
+	flex-direction: column;
+	margin-left: -7.5em;
+	justify-content: center;
+}
+.contacts .info-ct a:hover{
+           text-decoration: underline;
+}
+.contacts .ct button{
+				 margin-top: 12px;
+	             font-style: 18px;
+                 height: 30px;
+                 padding: 0 15px  0 15px;
+                 border-radius: 20px;
+                 color: #1ca0f2;
+                 border: 1px solid #1ca0f2;
+                 font-weight:900;
+                 background: transparent;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+             }
+
+            .contacts .ct button:hover{
+                 background: #d7e9f4;
+             }
